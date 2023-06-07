@@ -1,0 +1,44 @@
+.mail__btn {
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #e9204f;
+  opacity: 1;
+  color: #fff;
+  position: fixed;
+  bottom: 32px;
+  right: 40px;
+  z-index: 100;
+  cursor: pointer;
+  box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.28);
+  transition: all 200ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail__btn:hover {
+  transform: scale(1.1);
+  
+  opacity: 0.8;
+}
+
+.mail__btn:active {
+  transform: scale(0.9);
+}
+
+.disable {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .mail__btn {
+    width: 45px;
+    height: 45px;
+    bottom: 10px;
+    right: 10px;
+    font-size: 26px;
+  }
+}
