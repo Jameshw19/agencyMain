@@ -1,9 +1,9 @@
 import HannaImage from "../../public/assets/team/hanna.png";
 import BonxLion from "../../public/assets/work/BonxLion.png";
-import Neo from "../../public/assets/work/Neo.png";
+import Neo from "../../public/assets/work/neo2.png";
 import K7Logo from "../../public/assets/work/K7Logo.png";
 import QHLogo from "../../public/assets/work/QHLogo.png";
-import Qoves from "../../public/assets/work/Qoves.png";
+import Qoves from "../../public/assets/work/qoves2.png";
 
 export const clientsData = [
   {
