@@ -1,17 +1,31 @@
-import HannaImage from "../../public/assets/team/hanna.png";
 import BonxLion from "../../public/assets/work/BonxLion.png";
 import Neo from "../../public/assets/work/neo2.png";
 import K7Logo from "../../public/assets/work/K7Logo.png";
-import QHLogo from "../../public/assets/work/QHLogo.png";
 import Qoves from "../../public/assets/work/qoves2.png";
+import CryptoHub from "../../public/assets/work/CRYPTOHUB.jpg";
+import SwordBoxing from "../../public/assets/work/swordboxing-logo.png";
 
 export const clientsData = [
+  {
+    quote:
+      "I'm thrilled with the unique and modern website! It's visually captivating, seamless to navigate, and offers innovative design and cutting-edge features. It has truly exceeded my expectations!",
+    name: "Shafee H",
+    image: Qoves,
+    role: "Founder of Qoves",
+  },
   {
     quote:
       "We are delighted with the website! It's visually stunning, user-friendly, and provides a seamless browsing experience. Great job!",
     name: "Bonx ",
     image: BonxLion,
     role: "Founders of Bonx",
+  },
+  {
+    quote:
+      "We are ecstatic about our training website! It has truly surpassed our expectations with its striking visuals, intuitive interface, and an immersive browsing experience. The design is a amazing, combining elegance and functionality in a way that leaves us in awe.",
+    name: "SwordBoxing",
+    image: SwordBoxing,
+    role: "Founders of SwordBoxing",
   },
   {
     quote:
@@ -29,16 +43,9 @@ export const clientsData = [
   },
   {
     quote:
-      "I'm a happy client of the new online platform! It's sleek, intuitive, and offers an exceptional user experience. Kudos to the team for their impressive work!",
-    name: "QH",
-    image: QHLogo,
-    role: "Founder of QualityHomes",
-  },
-  {
-    quote:
-      "I'm thrilled with the unique and modern website! It's visually captivating, seamless to navigate, and offers innovative design and cutting-edge features. It has truly exceeded my expectations!",
-    name: "Shafee H",
-    image: Qoves,
-    role: "Founder of Qoves",
+      "It's sleek a nice sleek design, and offers an easy experience. Can't wait for the main site to be built for our launch!",
+    name: "CryptoHub",
+    image: CryptoHub,
+    role: "Founders of CryptoHub",
   },
 ];

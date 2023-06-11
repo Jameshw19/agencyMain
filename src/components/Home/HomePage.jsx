@@ -14,6 +14,8 @@ const HomePage = () => {
     <div>
       <Nav />
       <Landing />
+      {/* <div className="section__separator"></div> */}
+
       <HeaderInfo />
       <OurWork />
       <div className="sections" id="works__section">
