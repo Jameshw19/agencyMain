@@ -3,6 +3,7 @@ import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 import Logo from "../../../public/assets/logo.png";
+import Link from "next/link";
 
 const Nav = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -23,19 +24,19 @@ const Nav = () => {
       <nav className={`${isSticky && "fixed-top"} nav__custom`}>
         <div className="nav__container ">
           <div className="nav__logo">
-            <a
+            <Link
               onClick={() => window.scrollTo(0, 0)}
-              href=""
+              href="/"
               className="nav__logo--link"
               draggable="false"
             >
               <Image className="nav__logo--img" src={Logo} alt="logo" />
-            </a>
+            </Link>
           </div>
           <ul className="nav__link--list">
             <li className="nav__link">
               <a
-                href="works__section"
+                href="#works"
                 className="
                 nav__link--anchor 
                 link__hover-effect 
@@ -46,7 +47,7 @@ const Nav = () => {
             </li>
             <li className="nav__link">
               <a
-                href="about__section"
+                href="#about"
                 className="
                 nav__link--anchor 
                 link__hover-effect 
@@ -57,7 +58,7 @@ const Nav = () => {
             </li>
             <li className="nav__link">
               <a
-                href="services"
+                href="#services"
                 className="
                         nav__link--anchor 
                         link__hover-effect 
@@ -66,10 +67,9 @@ const Nav = () => {
                 Services
               </a>
             </li>
-
             {/* <li className="nav__link">
               <a
-                href="clients__section"
+                href="#clients"
                 className="
                 nav__link--anchor 
                 link__hover-effect 
@@ -80,7 +80,7 @@ const Nav = () => {
             </li> */}
             <li className="nav__link">
               <a
-                href="clients__section"
+                href="#contact"
                 className="
                 nav__link--anchor 
                 link__hover-effect 
@@ -101,7 +101,7 @@ const Nav = () => {
             <ul className="menu__links">
               <li className="menu__list">
                 <a
-                  href="header"
+                  href="#header"
                   className="menu__link"
                   onClick={() => isClose()}
                 >
@@ -110,7 +110,7 @@ const Nav = () => {
               </li>
               <li className="menu__list">
                 <a
-                  href="services"
+                  href="#services"
                   className="menu__link"
                   onClick={() => isClose()}
                 >
@@ -119,7 +119,7 @@ const Nav = () => {
               </li>
               <li className="menu__list">
                 <a
-                  href="works__section"
+                  href="#works"
                   className="menu__link"
                   onClick={() => isClose()}
                 >
@@ -128,7 +128,7 @@ const Nav = () => {
               </li>
               <li className="menu__list">
                 <a
-                  href="about__section"
+                  href="#about"
                   className="menu__link"
                   onClick={() => isClose()}
                 >
@@ -137,7 +137,7 @@ const Nav = () => {
               </li>
               {/* <li className="menu__list">
                 <a
-                  href="clients"
+                  href="#clients"
                   className="menu__link"
                   onClick={() => isClose()}
                 >
@@ -146,7 +146,7 @@ const Nav = () => {
               </li> */}
               <li className="menu__list">
                 <a
-                  href="clients__section"
+                  href="#contact"
                   className="menu__link"
                   onClick={() => isClose()}
                 >

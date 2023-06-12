@@ -18,20 +18,19 @@ const HomePage = () => {
 
       <HeaderInfo />
       <OurWork />
-      <div className="sections" id="works__section">
+      <div className="sections" id="works">
         <div className="section__separator"></div>
       </div>
       <About />
-      <div className="sections" id="works__section">
+      <div className="sections">
         <div className="section__separator"></div>
       </div>
       <Services />
-      <div className="sections" id="contact__section">
+      <div className="sections" id="contact">
         <div className="section__separator"></div>
       </div>
       <Contact />
-
-      <div className="sections" id="contact__section">
+      <div className="sections">
         <div className="section__separator"></div>
       </div>
       <Clients />
