@@ -36,7 +36,7 @@ const OurWork = () => {
               </div>
             </div>
           ))}
-          <div className="ourwork__card--soon">
+          {/* <div className="ourwork__card--soon">
             <img
               src="https://video-public.canva.com/VAFFJbd-a14/v/5f8f3d84e2.gif"
               className="ourwork__image"
@@ -45,12 +45,12 @@ const OurWork = () => {
             <div className="ourwork__card--title">
               <div>Project In Works..</div>
               <div className="our-work__link">
-                {/* <a href={item.link} target="_blank">
+                <a href={item.link} target="_blank">
                   View Website
-                </a> */}
+                </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
