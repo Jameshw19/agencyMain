@@ -12,7 +12,7 @@ export const teamData = [
   },
   {
     image: Adrian,
-    name: "Adrian",
+    name: "Adrian Garbowski",
     role: "Co-Founder ",
   },
   {

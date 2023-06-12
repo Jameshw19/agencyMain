@@ -35,17 +35,6 @@ const Nav = () => {
           <ul className="nav__link--list">
             <li className="nav__link">
               <a
-                href="services"
-                className="
-                        nav__link--anchor 
-                        link__hover-effect 
-                        link__hover-effect--pink"
-              >
-                Services
-              </a>
-            </li>
-            <li className="nav__link">
-              <a
                 href="works__section"
                 className="
                 nav__link--anchor 
@@ -66,6 +55,18 @@ const Nav = () => {
                 About
               </a>
             </li>
+            <li className="nav__link">
+              <a
+                href="services"
+                className="
+                        nav__link--anchor 
+                        link__hover-effect 
+                        link__hover-effect--pink"
+              >
+                Services
+              </a>
+            </li>
+
             {/* <li className="nav__link">
               <a
                 href="clients__section"

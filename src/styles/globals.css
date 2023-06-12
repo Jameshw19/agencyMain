@@ -153,7 +153,7 @@ h4 {
 
 .link__hover-effect:hover:before {
   transform: translateX(0);
-  width: 20px;
+  width: 100%;
 }
 
 .current {
@@ -242,7 +242,7 @@ HEADER
   height: 100%;
   background-color: #e9204f;
   transform: translateX(-100%);
-  transition: all 0.3s;
+  transition: all 0.5s;
   z-index: -1;
 }
 
