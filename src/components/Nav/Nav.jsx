@@ -67,7 +67,7 @@ const Nav = () => {
                 Services
               </a>
             </li>
-            <li className="nav__link">
+            {/* <li className="nav__link">
               <a
                 href="#clients"
                 className="
@@ -77,7 +77,7 @@ const Nav = () => {
               >
                 Clients
               </a>
-            </li>
+            </li> */}
             <li className="nav__link">
               <a
                 href="#contact"
@@ -135,7 +135,7 @@ const Nav = () => {
                   About
                 </a>
               </li>
-              <li className="menu__list">
+              {/* <li className="menu__list">
                 <a
                   href="#clients"
                   className="menu__link"
@@ -143,7 +143,7 @@ const Nav = () => {
                 >
                   Clients
                 </a>
-              </li>
+              </li> */}
               <li className="menu__list">
                 <a
                   href="#contact"
