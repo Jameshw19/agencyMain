@@ -134,7 +134,7 @@ const Landing = () => {
                     <h1 className="header__title">
                       We&apos;re a digital agency.
                     </h1>
-                    <a href="#services">
+                    <a href="#contact">
                       <button className="header__button">
                         Getting Started
                       </button>
